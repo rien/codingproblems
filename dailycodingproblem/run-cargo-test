@@ -1,0 +1,4 @@
+#!/bin/sh
+# It's silly I have to do this, but shebangs only allow one argument
+# So `#!/bin/env cargo script --test` does not work
+cargo script --test "$@"

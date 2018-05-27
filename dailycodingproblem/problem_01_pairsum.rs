@@ -1,5 +1,5 @@
+#!/usr/bin/env ./run-cargo-test
 use std::collections::HashSet;
-
 
 pub fn pairsum(vec: &Vec<usize>, k: usize) -> bool {
     let mut set = HashSet::new();
@@ -14,7 +14,6 @@ pub fn pairsum(vec: &Vec<usize>, k: usize) -> bool {
     }
     return false;
 }
-
 
 
 #[cfg(test)]

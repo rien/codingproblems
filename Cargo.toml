@@ -1,6 +1,0 @@
-[package]
-name = "dailycodingproblem"
-version = "0.1.0"
-authors = ["Rien Maertens <maertensrien@gmail.com>"]
-
-[dependencies]
